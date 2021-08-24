@@ -1,0 +1,87 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #9A98A6;
+    padding: 10px;
+    div{
+        background-color: #999;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        
+    }
+    
+}
+
+.flexboxBotonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 30px;
+    box-shadow: inset 5em 1em $greencolor;
+    Li{
+        margin: 20px;
+    }
+}
+
+.container{
+    margin: 0 5px;
+    width: 250px;
+    height: 100px;
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: inherit;
+            li a {
+                display: block;
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+        }
+    }
+}
+
+.container_contacto{
+    margin: 0 5px;
+    width: 650px;
+    height: 500px;
+    justify-content: center;
+}
+
+.icono_header{
+    justify-content: left;
+    font-weight: 50px;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 0px;
+}
+
+.footer__btn--container{
+    display: flex;
+    cursor: pointer;
+    flex-flow: row wrap;
+    justify-items: space-between;
+}
+
+.footer__btn {
+    background: linear-gradient(to top, #196E57, #17b188);
+    // transform: translate(10px,20px);
+    width: 8rem;
+    height: 5rem;
+    border: 2px solid $whitecolor;
+    border-radius: 5px;
+    a {
+        text-decoration: none;
+        color: $whitecolor;
+    }
+}

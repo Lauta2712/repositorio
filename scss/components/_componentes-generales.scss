@@ -1,0 +1,61 @@
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+.font__body{
+    font-size: 30px;
+}
+
+$greencolor: #196E57;
+
+$whitecolor: #fff;
+
+
+
+.imagenes{
+    width: auto;
+    height: 400px;
+}
+
+.imagenesA{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.table-container {
+    background-color: $whitecolor;
+}
+
+h1{
+    color: $greencolor;
+    a{
+        color: $whitecolor;
+    }
+}
+
+h2{
+    color: $greencolor;
+}
+
+h3{
+    color: $greencolor;
+}
+
+h4{
+    color: $greencolor;
+}
+
+a {
+    text-decoration: none;
+    color: $whitecolor;
+}
+
+body {
+    background-color: $whitecolor;
+}
+
+
