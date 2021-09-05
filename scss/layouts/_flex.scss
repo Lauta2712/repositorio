@@ -1,38 +1,56 @@
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    background-color: #9A98A6;
-    padding: 10px;
-    div{
-        background-color: #999;
-        width: 100px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        
-    }
-    
-}
 
-.flexboxBotonera{
+.flexbox__botonera{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-content: flex-end;
+    background-color: $greencolor;
     list-style: none;
-    font-size: 30px;
-    box-shadow: inset 5em 1em $greencolor;
+    font-size: 3rem;
+    width: auto;
+    height: 3rem;
     Li{
-        margin: 20px;
+        margin: 3rem;
+        color: $whitecolor;
     }
 }
 
+.flexbox__botonera-pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-end;
+    background-color: $greencolor;
+    list-style: none;
+    font-size: 3rem;
+    Li{
+        margin: 3rem;
+        color: $whitecolor;
+    }
+}
+
+.flexbox__botonera_habitat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: flex-start;
+    background-color: $greencolor;
+    list-style: none;
+    font-size: 5rem;
+    width: auto;
+    height: 5rem;
+    Li{
+        margin: 2rem;
+        color: $whitecolor;
+    }
+}
+
+
 .container{
-    margin: 0 5px;
-    width: 250px;
-    height: 100px;
+    margin: 0 0.5rem;
+    width: 20rem;
+    height: 8rem;
+    box-sizing: content-box;
     ul {
         display: flex;
         flex-direction: row;
@@ -43,8 +61,8 @@
             li a {
                 display: block;
                 img{
-                    width: 50px;
-                    height: 50px;
+                    width: 4rem;
+                    height: 4rem;
                 }
         }
     }
@@ -52,8 +70,8 @@
 
 .container_contacto{
     margin: 0 5px;
-    width: 650px;
-    height: 500px;
+    width: 30rem;
+    height: 20rem;
     justify-content: center;
 }
 
@@ -66,22 +84,4 @@
     height: 0px;
 }
 
-.footer__btn--container{
-    display: flex;
-    cursor: pointer;
-    flex-flow: row wrap;
-    justify-items: space-between;
-}
 
-.footer__btn {
-    background: linear-gradient(to top, #196E57, #17b188);
-    // transform: translate(10px,20px);
-    width: 8rem;
-    height: 5rem;
-    border: 2px solid $whitecolor;
-    border-radius: 5px;
-    a {
-        text-decoration: none;
-        color: $whitecolor;
-    }
-}

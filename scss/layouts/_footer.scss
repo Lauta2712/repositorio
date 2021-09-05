@@ -2,3 +2,22 @@
     background-color: $greencolor;
 }
 
+.footer__btn {
+    background: linear-gradient(to top, #196E57, #17b188);
+    // transform: translate(10px,20px);
+    width: 8rem;
+    height: 5rem;
+    border: 2px solid $whitecolor;
+    border-radius: 5px;
+    a {
+        text-decoration: none;
+        color: $whitecolor;
+    }
+}
+
+.footer__btn--container{
+    display: flex;
+    cursor: pointer;
+    flex-flow: row wrap;
+    justify-items: space-between;
+}

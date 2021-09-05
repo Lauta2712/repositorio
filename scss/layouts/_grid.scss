@@ -7,19 +7,21 @@
 .grid-container{
     display: grid;
     background-color: #fff;
-    margin: 50px;
-    padding: 50px;
+    margin: 3rem;
+    padding: 3rem;
     box-shadow: 10px 5px 5px $greencolor;
+    box-sizing: content-box;
     div{
         background-color: #fff;
         justify-content: center;
         justify-content: justify;
+        text-align: justify;
         color: #196E57;
         h3{
-            font-size: 35px;
+            font-size: 3rem;
         }
         p{
-            font-size: 20px;
+            font-size: 1.5rem;
         }
     }
 }
@@ -27,6 +29,9 @@
 .grid-container-carrusel{
     display: grid;
     background-color: #fff;
+    width: auto;
+    height: 35rem;
+    box-sizing: content-box;
     div{
         background-color: #fff;
         justify-content: center;
@@ -41,4 +46,11 @@
             }
         }
     }
+}
+
+
+.logoo{
+    display: grid;
+    font-size: 10rem;
+    
 }

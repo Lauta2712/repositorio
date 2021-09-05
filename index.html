@@ -7,42 +7,39 @@
     <meta name="description" content="Somos una revista orientada al medio ambiente en San Juan, Argentina">
     <meta name="keywords" content="medio ambiente, clima, cambios, cambios climáticos, noticias, news, contaminación, fotos, arboles, tierra, planeta, avances, tecnología, avances">
     <meta name="author" content="LautaroRodriguez.com.ar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style1.css">
     <title>Revista Hábitat</title>
-
 </head>
 
 <body class="font__body">
-    <header>
+<main>
+<header class="header__container">
     <div>
+        <div class="flexbox__botonera_habitat">
+            <li>
+                <a href='index.html'>HÁBITAT</a>
+            </li>
+        </div>
         <nav>
-            <div><h1><a href='index.html'>HÁBITAT</a></h1></div>
-            <ul class="flexboxBotonera">
-            <div>
-                <li><a href="index.html">Home</a></li>
-            </div>
-            <div>
+            <ul class="flexbox__botonera">
                 <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            </div>
-            <div>
                 <li><a href="./pages/social.html">Social</a></li>
-            </div>
-            <div>
-                <li><a href="./pages/+info.html">+info</a></li></div>
-            <div>
+                <li><a href="./pages/+info.html">+info</a></li>
                 <li><a href="./pages/servicios.html">Servicios</a></li>
-            </div>
             </ul>      
         </nav>
     </div>
-    </header>
+</header>
+
+
 
 <div>
-    <h2>Todo acerca del medio ambiente en un mismo lugar</h2>
+    <h1>Todo sobre el medio ambiente en un mismo lugar</h1>
 </div>
 
 
@@ -52,13 +49,13 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="Imágenes/TIPS2.jpg" class="d-block w-100 imagenes" alt="Tips">
+                        <img src="imagenes/TIPS2.jpg" class="d-block w-100 imagenes" alt="Tips">
                         </div>
                         <div class="carousel-item">
-                        <img src="Imágenes/COMO.png" class="d-block w-100 imagenes" alt="Maravilla del mundo" >
+                        <img src="imagenes/COMO.png" class="d-block w-100 imagenes" alt="Maravilla del mundo" >
                         </div>
                         <div class="carousel-item">
-                        <img src="Imágenes/WAYS.jpg" class="d-block w-100 imagenes" alt="macchupicchu">
+                        <img src="imagenes/WAYS.jpg" class="d-block w-100 imagenes" alt="macchupicchu">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -73,12 +70,12 @@
             </div>
     </div>
 
-
+<div class="responsive">
     <div class="grid-container">
                 <div class="item2">
                     <section>
                         <h3>Global</h3>
-                        <img src="Imágenes/2021_Past_EOD_en_sm.jpg" alt="Earth Overshoot Day" class="imagenesA">
+                        <img src="imagenes/2021_Past_EOD_en_sm.jpg" alt="Earth Overshoot Day" class="imagenesA">
                         <h4>Earth Overshoot Day</h4>
                         <p>
                             Earth Overshoot Day (o Día de Sobregiro de la Tierra, en español) llegó este 29 de julio. Se trata del día en que la Tierra ya consumió todos sus recursos naturales para 2021. Con respecto a 2020, que había sido el 22 de agosto, se adelantó un mes y genera preocupación en ambientalistas. En Argentina fue el 26 de junio.Es un cálculo que permite establecer en qué día del calendario un país o el mundo consume los recursos naturales que el planeta puede regenerar al año. El Overshoot Day es una fecha ficticia que sirve para medir qué tan rápido los seres humanos están consumiendo todos los recursos que el planeta es capaz de regenerar cada año. Este día en cuestión va cambiando cada año y en cada país, dependiendo del comportamiento de las personas y de las autoridades.
@@ -86,15 +83,13 @@
                     </section>
                 </div>
     </div>
-    
-        <div class="grid-container">
-            <div class="item2">
-                <section>
-                    <h3>Global</h3>
-                    <img src="Imágenes/multimedia.normal.jpg" alt="FIMA 2021" class="imagenesA">
+    <div class="grid-container">
+        <div class="item2">
+            <section>
+                <h3>Global</h3>
+                    <img src="imagenes/multimedia.normal.jpg" alt="FIMA 2021" class="imagenesA">
                     <p>
                         La Feria Internacional del Medio Ambiente (FIMA 2021) celebrará su VII edición de manera presencial y con estrictos protocolos de bioseguridad, a partir del próximo 29 de septiembre hasta el 2 de octubre, según informó el Ministerio de Ambiente de Colombia.
-    
                 Este importante espacio, que constituye un referente en América Latina para la divulgación de proyectos ambientales de alto impacto y que se convierte en un escenario ideal para llevar a cabo transacciones comerciales de servicios especializados, tecnológicos y académicos en la región, se realizará en el centro de convenciones de Corferias en Bogotá.
                     </p>
                     <p>
@@ -102,22 +97,19 @@
                         
                         El cronograma propuesto incluye el abordaje de temas clave como el tratamiento de efluentes, el cambio climático, herramientas de análisis de ciclo de vida e indicadores de calidad ambiental, entre otros. En el primer encuentro llevado a cabo el 27 de junio, Verónica Bertoncini y Gustavo Ruhl, especialistas del departamento de Medio Ambiente de la región Centro del INTI, realizaron una presentación sobre la gestión integral de los Residuos Sólidos Urbanos (RSU) y sobre las tecnologías del compostaje domiciliario. “El calendario surge como una oportunidad de compartir el trabajo que venimos realizando y los ejes rectores que nos van a guiar en los próximos seis meses”, destacó Gretel Scelzi, directora del Centro NTI Entre Ríos.
                     </p>
-                </section>
-            </div>
+            </section>
         </div>
-    
+    </div>
         <div class="grid-container">
-            <div class="item1"></div>
             <div class="item2">
                 <section>
                 <h3>Local</h3>
-                    <img src="Imágenes/Tala.jpg" alt="Tala de árboles" class="imagenesA">
+                    <img src="imagenes/Tala.jpg" alt="Tala de árboles" class="imagenesA">
                     <p>
                         Ex funcionarios de Medio Ambiente y empresarios forestales procesados por la tala prohibida de bosques
                     </p>
                     <p>
                         La medida fue tomada en el marco de una causa que estaba dormida desde 2014 y en la que secuestró “madera sin identificar" de una docena de especies protegidas.Ex funcionarios del área de Medio Ambiente de la Nación y de la Provincia de Salta y empresarios forestales fueron procesados sin prisión preventiva pero con embargos de 430 millones de peso por la tala prohibida de bosques para exportar palo santo y otras maderas utilizando mano de obra barata de miembros de comunidades de pueblos originarios. El juez federal Sebastián Casanello dispuso la medida en una causa que estaba dormida desde 2014 y en la que secuestró “madera sin identificar, no sólo ‘palo santo’ sino también otras especies protegidas”,  entre ellas lapacho rosado, urundel, petiribi o afata, quina, roble criollo, cedro,  cebil moro y cebil blanco, nogal y pino del cerro.
-    
                         Los empresarios utilizaron una autorización legal para el desmonte para siembra y pasturas de una hacienda en el departamento salteño de Orán, que incluía la posibilidad de exportar el palo santo obtenido por los trabajos. El desmonte nunca se realizó, pero con esa documentación los empresarios intentaron la exportación de palo santo, cuyo origen resultaba desconocido y cuya extracción no había sido autorizada.
                         
                         Según la resolución, de un centenar de páginas, hubo “actividad de tala y extracción de palo santo desarrollada en sitios no autorizados, con el fin de proceder a su posterior comercialización en el mercado exterior”. La causa se inició en marzo de 2014 a raíz de la denuncia del Programa de Control y Fiscalización de la Secretaría de Ambiente de la Provincia de Salta. El valor de la exportación que intentaron los empresarios ahora procesados supera los 20 millones de pesos.
@@ -134,18 +126,18 @@
                         
                         Precisamente Isa intentó justificar las omisiones a las inspecciones sobre la tala ilegal explicando que por parte de las autoridades existía una “necesidad u obsesión de prohibir por prohibir sin fundamentos y con intereses ocultos dirigidos a reducir o matar una actividad productiva que generaba mano de obra intensiva y sostenía a familias criollas y aborígenes (pueblos originarios) como un medio de vida legítimo y ancestral”. Sin embargo, de la investigación surgió –mediante el secuestro de varios cuadernos con registros de la actividad ilegal- cómo era el empleo de los trabajadores pertenecientes a los pueblos originarios: “se reflejaba en forma de cuenta corriente escrita a mano, la cantidad de madera talada por cada miembro de la comunidad y la entrega de alimentos a cambio de ello”.
                     </p>
-                    
                 </section>
             </div>
         </div>
+</div>
 
-    <footer id="pie">
+<footer id="pie">
         <div class="container">
-                <ul>
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"><img src="Imágenes/facebook.png" alt="facebook"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"><img src="Imágenes/twitter.png" alt="twitter"></i></a></li>
-                    <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"><img src="Imágenes/whatsapp.png" alt="whatsapp"></i></a></li>
-                </ul>
+            <ul>
+                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"><img src="imagenes/facebook.png" alt="facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fab fa-twitter"><img src="imagenes/twitter.png" alt="twitter"></i></a></li>
+                <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"><img src="imagenes/whatsapp.png" alt="whatsapp"></i></a></li>
+            </ul>
         </div>
                 <div class="footer__btn--container">
                     <button class='footer__btn'>
@@ -156,8 +148,9 @@
                     </button>
                 </div>
     </footer>
-    
+</main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
 </body>
 </html>
