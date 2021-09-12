@@ -16,79 +16,84 @@
     <title>Revista Hábitat</title>
 </head>
 
-<body class="font__body">
-<main>
+<body>
+
 <header class="header__container">
-    <div>
-        <div class="flexbox__botonera_habitat">
-            <li>
-                <a href='index.html'>HÁBITAT</a>
-            </li>
-        </div>
-        <nav>
-            <ul class="flexbox__botonera">
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/social.html">Social</a></li>
-                <li><a href="./pages/+info.html">+info</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-            </ul>      
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h1>HÁBITAT</h1></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/social.html">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/+info.html">+ info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/fundaciones.html">Fundaciones</a>
+                        </li>
+                        </ul>
+                    </div>
+            </div>
+    </nav>
 </header>
 
+<div class="slogan__header">
+    <h2>TODO SOBRE EL MEDIO AMBIENTE EN UN MISMO LUGAR</h2>
+</div>
 
-
-<div>
-    <h1>Todo sobre el medio ambiente en un mismo lugar</h1>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="imagenes/TIPS2.jpg" class="d-block w-100 imagenes" alt="Tips">
+        </div>
+        <div class="carousel-item">
+        <img src="imagenes/COMO.png" class="d-block w-100 imagenes" alt="Maravilla del mundo" >
+        </div>
+        <div class="carousel-item">
+        <img src="imagenes/WAYS.jpg" class="d-block w-100 imagenes" alt="macchupicchu">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
 
-
-    <div class="grid-container-carrusel">
-            <div class="item1">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="imagenes/TIPS2.jpg" class="d-block w-100 imagenes" alt="Tips">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="imagenes/COMO.png" class="d-block w-100 imagenes" alt="Maravilla del mundo" >
-                        </div>
-                        <div class="carousel-item">
-                        <img src="imagenes/WAYS.jpg" class="d-block w-100 imagenes" alt="macchupicchu">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                    </div>
-            </div>
-    </div>
-
-<div class="responsive">
     <div class="grid-container">
                 <div class="item2">
                     <section>
                         <h3>Global</h3>
-                        <img src="imagenes/2021_Past_EOD_en_sm.jpg" alt="Earth Overshoot Day" class="imagenesA">
-                        <h4>Earth Overshoot Day</h4>
+                        <!-- <img src="imagenes/2021_Past_EOD_en_sm.jpg" alt="Earth Overshoot Day" class="imagenesA"> -->
                         <p>
+                            <img src="imagenes/2021_Past_EOD_en_sm.jpg" alt="Earth Overshoot Day" class="imagenesA">
                             Earth Overshoot Day (o Día de Sobregiro de la Tierra, en español) llegó este 29 de julio. Se trata del día en que la Tierra ya consumió todos sus recursos naturales para 2021. Con respecto a 2020, que había sido el 22 de agosto, se adelantó un mes y genera preocupación en ambientalistas. En Argentina fue el 26 de junio.Es un cálculo que permite establecer en qué día del calendario un país o el mundo consume los recursos naturales que el planeta puede regenerar al año. El Overshoot Day es una fecha ficticia que sirve para medir qué tan rápido los seres humanos están consumiendo todos los recursos que el planeta es capaz de regenerar cada año. Este día en cuestión va cambiando cada año y en cada país, dependiendo del comportamiento de las personas y de las autoridades.
                         </p>
                     </section>
                 </div>
     </div>
     <div class="grid-container">
-        <div class="item2">
+        <div class="item2 col-sm-8">
             <section>
                 <h3>Global</h3>
-                    <img src="imagenes/multimedia.normal.jpg" alt="FIMA 2021" class="imagenesA">
+                    <!-- <img src="imagenes/multimedia.normal.jpg" alt="FIMA 2021" class="imagenesA"> -->
                     <p>
+                        <img src="imagenes/multimedia.normal.jpg" alt="FIMA 2021" class="imagenesA">
                         La Feria Internacional del Medio Ambiente (FIMA 2021) celebrará su VII edición de manera presencial y con estrictos protocolos de bioseguridad, a partir del próximo 29 de septiembre hasta el 2 de octubre, según informó el Ministerio de Ambiente de Colombia.
                 Este importante espacio, que constituye un referente en América Latina para la divulgación de proyectos ambientales de alto impacto y que se convierte en un escenario ideal para llevar a cabo transacciones comerciales de servicios especializados, tecnológicos y académicos en la región, se realizará en el centro de convenciones de Corferias en Bogotá.
                     </p>
@@ -100,12 +105,13 @@
             </section>
         </div>
     </div>
-        <div class="grid-container">
-            <div class="item2">
-                <section>
+    <div class="grid-container">
+        <div class="item2">
+            <section>
                 <h3>Local</h3>
-                    <img src="imagenes/Tala.jpg" alt="Tala de árboles" class="imagenesA">
+                    <!-- <img src="imagenes/Tala.jpg" alt="Tala de árboles" class="imagenesA"> -->
                     <p>
+                        <img src="imagenes/Tala.jpg" alt="Tala de árboles" class="imagenesA">
                         Ex funcionarios de Medio Ambiente y empresarios forestales procesados por la tala prohibida de bosques
                     </p>
                     <p>
@@ -128,8 +134,8 @@
                     </p>
                 </section>
             </div>
-        </div>
-</div>
+    </div>
+
 
 <footer id="pie">
         <div class="container">
@@ -147,8 +153,8 @@
                         <a href="./pages/nosotros.html" type="button">Contacto</a>
                     </button>
                 </div>
-    </footer>
-</main>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 

@@ -1,6 +1,19 @@
-header {
-    background-color: #196E57;
+header{
+    background-color: $greencolor;
     li a{
         color: #fff;
     }
+}
+
+.header__container{
+    width: auto;
+    max-height: 18rem;
+    background-color: $whitecolor;
+    box-sizing: content-box;
+}
+
+.slogan__header{
+    max-width: 60rem;
+    max-height: auto;
+    margin: 2rem;
 }

@@ -7,50 +7,35 @@
 .grid-container{
     display: grid;
     background-color: #fff;
-    margin: 3rem;
-    padding: 3rem;
-    box-shadow: 10px 5px 5px $greencolor;
+    max-width: 90vw;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 1rem 0.2rem 0.2rem $greencolor;
     box-sizing: content-box;
     div{
         background-color: #fff;
         justify-content: center;
-        justify-content: justify;
         text-align: justify;
         color: #196E57;
         h3{
             font-size: 3rem;
         }
-        p{
-            font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        width: 100vw;
+    }
+    section {
+        p {
+        margin: 5rem;
+        width: 70vw;
+        font-size: 1.5rem
+        }
+        h3{
+        margin: 5rem;
         }
     }
 }
 
-.grid-container-carrusel{
-    display: grid;
-    background-color: #fff;
-    width: auto;
-    height: 35rem;
-    box-sizing: content-box;
-    div{
-        background-color: #fff;
-        justify-content: center;
-        text-align: justify center;
-        color: #196E57;
-        item1{
-            grid-column: 1/3;
-            grid-row: 1/3;
-            justify-content: left;
-            item2{
-                justify-content: right;
-            }
-        }
-    }
-}
-
-
-.logoo{
-    display: grid;
-    font-size: 10rem;
-    
-}
