@@ -17,11 +17,11 @@
 // }
 
 .navbar{
-    display: flex;
-    width: auto;
+    width: 100vw;
     max-height: auto;
     .navbar-nav{
-        justify-content: flex-end;
+        display: flex;
+        justify-content: space-between;
     }
     .nav-item{
         font-size: 2.2rem;
