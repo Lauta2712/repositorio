@@ -36,61 +36,11 @@ footer {
   max-width: 92vw;
   margin: 2rem; }
 
-.button {
-  background-color: #fff; }
-
-.flexbox__botonera {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: flex-end;
-  background-color: #196E57;
-  list-style: none;
-  font-size: 3rem;
-  width: auto;
-  height: 3rem; }
-  .flexbox__botonera Li {
-    margin: 3rem;
-    color: #fff; }
-
-.flexbox__botonera-pages {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: flex-end;
-  background-color: #196E57;
-  list-style: none;
-  font-size: 3rem; }
-  .flexbox__botonera-pages Li {
-    margin: 3rem;
-    color: #fff; }
-
-.flexbox__botonera_habitat {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: flex-start;
-  background-color: #196E57;
-  list-style: none;
-  font-size: 5rem;
-  width: auto;
-  height: 5rem; }
-  .flexbox__botonera_habitat Li {
-    margin: 2rem;
-    color: #fff; }
-
 .container_contacto {
   margin: 0 5px;
   width: 30rem;
   height: 20rem;
   justify-content: center; }
-
-.icono_header {
-  justify-content: left;
-  font-weight: 50px;
-  padding: 0px;
-  margin: 0px;
-  width: 100px; }
 
 .footer__fondo {
   background-color: #196E57; }
